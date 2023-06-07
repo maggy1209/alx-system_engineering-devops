@@ -67,3 +67,8 @@
 
           mv [[:upper:]]* /tmp/u
 
+101. Script that deletes all files in the current working directory that end with the character `~`.
+
+          rm *~
+
+

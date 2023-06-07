@@ -6,3 +6,7 @@
 1. Display the contents list of your current directory.
         
         ls -l
+
+2. Script that changes the working directory to the user’s home directory.
+
+        cd

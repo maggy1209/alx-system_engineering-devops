@@ -43,3 +43,7 @@
 9. Delete the directory `my_first_directory` that is in the `/tmp directory`.
        
        rmdir /tmp/my_first_directory
+
+10. Script that changes the working directory to the previous one.
+
+        cd -

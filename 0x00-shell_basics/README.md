@@ -10,3 +10,7 @@
 2. Script that changes the working directory to the user’s home directory.
 
         cd
+
+3. Current directory contents in a long format.
+  
+        ls -l

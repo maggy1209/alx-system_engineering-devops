@@ -39,3 +39,7 @@
 8. Delete the file `betty`
         
         rm /tmp/my_first_directory/betty
+
+9. Delete the directory `my_first_directory` that is in the `/tmp directory`.
+       
+       rmdir /tmp/my_first_directory

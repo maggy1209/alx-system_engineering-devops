@@ -14,3 +14,8 @@
 3. Current directory contents in a long format.
   
         ls -l
+
+4. Display current directory contents, including hidden files (starting with `.`). Using the long format.
+        
+        ls -la
+

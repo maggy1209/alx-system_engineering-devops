@@ -1,1 +1,3 @@
-i am working now
+# Shell Basics
+Task 0 - pwd
+

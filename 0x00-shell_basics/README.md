@@ -71,7 +71,11 @@
 
           rm *~
 
-02. Script that creates the directories `welcome/, welcome/to/ and welcome/to/school` in the current directory.
+102. Script that creates the directories `welcome/, welcome/to/ and welcome/to/school` in the current directory.
 
           mkdir-p welcome/to/school
+103. Command that lists all the files and directories of the current directory, separated by commas (`,`) and directory names end with a slash `/`
+
+          ls -pam
+
 

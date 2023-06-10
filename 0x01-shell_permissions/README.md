@@ -20,3 +20,6 @@ Script that adds execute permission to the owner of the file `hello`
 Script that adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`
 	  
     chmod 745 hello	 
+Script that adds execution permission to the owner, the group owner and the other users, to the file `hello`.
+	  
+    chmod ugo+x hello

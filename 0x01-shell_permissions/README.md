@@ -29,3 +29,6 @@ A script that sets the permission to the file `hello` as follows:
       * Other users: all the permissions
     
     chmod 008 hello
+Script that sets permissions such that the owner has all permissions, group has read     and execute permissions and others have write and execute permissions.
+	  
+    chmod 753 hello

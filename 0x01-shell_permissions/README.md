@@ -50,3 +50,6 @@ Script that changes group owner to `school` for the file `hello`
 14:Script that changes the owner and group owner of `_hello` to `vincent` and `staff`       respectively.
 	  
     chown -h vincent:staff _hello
+15.Script that changes owner of the file `hello` to `betty` only if it is owned by the     user `guillaume`
+	  
+    chown --from=guillaume betty hello

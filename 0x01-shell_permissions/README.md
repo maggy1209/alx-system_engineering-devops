@@ -13,4 +13,7 @@ Script that changes the owner of the file `hello` to the user `betty`
 	
 Script that creates an empty file called `hello`
 	  
-    touch hello	 
+    touch hello
+Script that adds execute permission to the owner of the file `hello`
+	  
+    chmod u+x hello	 

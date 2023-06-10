@@ -53,3 +53,6 @@ Script that changes group owner to `school` for the file `hello`
 15.Script that changes owner of the file `hello` to `betty` only if it is owned by the     user `guillaume`
 	  
     chown --from=guillaume betty hello
+16.Scripts that plays the Star Wars IV episode in the terminal.
+	  
+    telnet towel.blinkenlights.nl

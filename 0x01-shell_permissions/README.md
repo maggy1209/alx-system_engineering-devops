@@ -41,4 +41,6 @@
 12: Script that creates a directory called `my_dir` with permissions 751 in the working     directory.
 	  
     mkdir -m 751 my_dir
-
+Script that changes group owner to `school` for the file `hello`
+	  
+    chgrp school hello

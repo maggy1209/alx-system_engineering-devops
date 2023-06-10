@@ -38,4 +38,7 @@
  11.Script that adds execute permission to all subdirectories of the current directory       for the owner, the group owner and all other users. Regular files are not changed.
     
     chmod -R +X .
+12: Script that creates a directory called `my_dir` with permissions 751 in the working     directory.
+	  
+    mkdir -m 751 my_dir
 

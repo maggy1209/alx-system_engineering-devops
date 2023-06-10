@@ -3,4 +3,7 @@
     su betty
 Script that prints the effective username of the current user
 	  
-    whoami	 
+    whoami
+Script that prints all the groups the current user is part of.
+	  
+    id -Gn	 

@@ -32,3 +32,6 @@ A script that sets the permission to the file `hello` as follows:
 Script that sets permissions such that the owner has all permissions, group has read     and execute permissions and others have write and execute permissions.
 	  
     chmod 753 hello
+Script that sets the mode of the file `hello` the same as `olleh` ’s mode
+	  
+    chmod --reference=olleh hello

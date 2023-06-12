@@ -73,5 +73,8 @@ Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `
 **** Advanced tasks***
 23: Script that finds all empty files and directories in the current directory and all sub-directories.
 
-        find -empty | rev | cut -d'/' -f1 | rev 
+        find -empty | rev | cut -d'/' -f1 | rev
+24: Script that lists all the files with a `.gif` extention in the current directory and all its sub-directories.
+
+        find -type f -name "*.gif" -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f 
 

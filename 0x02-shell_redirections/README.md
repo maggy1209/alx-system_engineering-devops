@@ -64,4 +64,8 @@ Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `
 21. Task 20: Script that removes all letters `c` and `C` from input.
 
         tr -d [cC]
+22. Task 21: Script that reverses its input.
+
+        rev
+
 

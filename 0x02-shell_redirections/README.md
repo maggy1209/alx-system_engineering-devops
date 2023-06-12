@@ -24,10 +24,7 @@
         echo "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'
 10. Task 9: Script that duplicates the last line of the file `iacta`.
 
-        tail -n 1 iacta >> iacta
-11. Task 10: Script that deletes all the regular files with a `.js` extension  present in the current dir and its subfolders.
-
-        find . -name '*.js' -type f -delete  
+        tail -n 1 iacta >> iacta  
 11. Task 10: Script that deletes all the regular files with a `.js` extension  present in the current dir and its subfolders.
 
         find . -name '*.js' -type f -delete  
@@ -58,3 +55,6 @@
 19. Task 18: Script that displays all lines of the file `/etc/ssh/sshd_config` starting with a letter. Including capital letters.
 
         grep "^[[:alpha:]]" /etc/ssh/sshd_config 
+Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `e` respectively.
+
+        tr "Ac" "Ze"

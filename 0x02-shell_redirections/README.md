@@ -69,5 +69,9 @@ Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `
         rev
 23. Task 22: Script that displays all users and their home directories, sorted by users. Based on the the `/etc/passwd` file
 
-         cut -d":" -f 1,6 /etc/passwd | sort  
+         cut -d":" -f 1,6 /etc/passwd | sort 
+**** Advanced tasks***
+23: Script that finds all empty files and directories in the current directory and all sub-directories.
+
+        find -empty | rev | cut -d'/' -f1 | rev 
 

@@ -79,5 +79,9 @@ Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `
         find -type f -name "*.gif" -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f
 25: Script that decodes acrostics that use the first letter of each line
 
-        cut -c 1 | tr -d '\n' | sort 
+        cut -c 1 | tr -d '\n' | sort
+26: Script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+
+        tail -n +2 | cut -f1 | sort | uniq -c | sort -nr -k 1,1 | cut -c 9- | head -11
+ 
 

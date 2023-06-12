@@ -76,5 +76,8 @@ Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `
         find -empty | rev | cut -d'/' -f1 | rev
 24: Script that lists all the files with a `.gif` extention in the current directory and all its sub-directories.
 
-        find -type f -name "*.gif" -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f 
+        find -type f -name "*.gif" -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f
+25: Script that decodes acrostics that use the first letter of each line
+
+        cut -c 1 | tr -d '\n' | sort 
 

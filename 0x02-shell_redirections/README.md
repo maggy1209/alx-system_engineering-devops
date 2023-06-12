@@ -16,3 +16,6 @@
 6. Task 5: Script that displays the first 10 lines of `/etc/passwd`.
 
         ls -lt | head /etc/passwd
+7. Task 6: Script that displays the third line of the file `iacta`.
+
+        head -n 3 iacta | tail -n 1

@@ -10,3 +10,6 @@
 4. Task 3: Script that displays the content of `/etc/passwd` and `/etc/hosts`
 
         cat /etc/passwd /etc/hosts
+5. Task 4: Script that displays the last 10 lines of `/etc/passwd`.
+
+        ls -lt | tail /etc/passwd

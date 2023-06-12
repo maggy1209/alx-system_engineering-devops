@@ -67,5 +67,7 @@ Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `
 22. Task 21: Script that reverses its input.
 
         rev
+23. Task 22: Script that displays all users and their home directories, sorted by users. Based on the the `/etc/passwd` file
 
+         cut -d":" -f 1,6 /etc/passwd | sort  
 

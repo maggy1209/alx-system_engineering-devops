@@ -4,3 +4,6 @@
 2. Task 1: Script that displays a confused smiley `(Ôo)`.
 
         echo "\"(Ôo)'"
+3. Task 2: Script that displays the content of the `/etc/passwd` file.
+        
+        cat /etc/passwd

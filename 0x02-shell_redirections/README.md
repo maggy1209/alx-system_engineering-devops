@@ -33,4 +33,7 @@
         find . -name '*.js' -type f -delete  
 12. Task 11: Script that counts the number of directories and sub-directories in the current directory.
 
-        find ./* -type d -print | wc -l   
+        find ./* -type d -print | wc -l
+13. Task 12: Script that displays the 10 newest files in the current directory.
+
+        ls -t | head   

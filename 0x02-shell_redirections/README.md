@@ -46,4 +46,6 @@
 16. Task 15: Script that displays the number of lines that contain the pattern “bin” in the file `/etc/passwd`
 
         grep bin /etc/passwd | wc -l
-   
+16. Task 15: Script that displays the number of lines that contain the pattern “bin” in the file `/etc/passwd`
+
+        grep bin /etc/passwd | wc -l   

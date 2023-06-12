@@ -61,4 +61,7 @@ Task 19: Script that replaces all characters `A` and `c` from input to `Z` and `
 9. Task 8: Script that writes into the file `ls_cwd_content` the result of the command `ls -la`.If the file `ls_cwd_content` already exists, it is overwritten.              If the file ls_cwd_content does not    exist, it's created.
 
         ls -la > ls_cwd_content
+21. Task 20: Script that removes all letters `c` and `C` from input.
+
+        tr -d [cC]
 

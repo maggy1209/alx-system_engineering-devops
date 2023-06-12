@@ -7,3 +7,6 @@
 3. Task 2: Script that displays the content of the `/etc/passwd` file.
         
         cat /etc/passwd
+4. Task 3: Script that displays the content of `/etc/passwd` and `/etc/hosts`
+
+        cat /etc/passwd /etc/hosts

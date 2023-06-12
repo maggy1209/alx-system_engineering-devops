@@ -36,4 +36,10 @@
         find ./* -type d -print | wc -l
 13. Task 12: Script that displays the 10 newest files in the current directory.
 
-        ls -t | head   
+        ls -t | head
+14. Task 13: Script that takes a list of words as input and prints only words that appear exactly once.
+    * Input format: One line, one word
+    * Output format: One line, one word
+    * Words are sorted.
+
+          sort | uniq -u   

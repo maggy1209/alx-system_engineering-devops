@@ -42,4 +42,8 @@
     * Output format: One line, one word
     * Words are sorted.
 
-          sort | uniq -u   
+          sort | uniq -u
+16. Task 15: Script that displays the number of lines that contain the pattern “bin” in the file `/etc/passwd`
+
+        grep bin /etc/passwd | wc -l
+   

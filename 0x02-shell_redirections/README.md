@@ -52,4 +52,6 @@
 17. Task 16: Script that displays lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
 
         grep -A 3 root /etc/passwd
+18. Task 17: Script that displays all the lines in the file `/etc/passwd` that do not contain the pattern “bin”.
 
+        grep -v bin /etc/passwd

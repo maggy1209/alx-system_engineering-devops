@@ -25,3 +25,6 @@
 10. Task 9: Script that duplicates the last line of the file `iacta`.
 
         tail -n 1 iacta >> iacta
+11. Task 10: Script that deletes all the regular files with a `.js` extension  present in the current dir and its subfolders.
+
+        find . -name '*.js' -type f -delete   

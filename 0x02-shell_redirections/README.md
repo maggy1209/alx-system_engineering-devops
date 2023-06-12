@@ -49,3 +49,7 @@
 15. Task 14: Script that displays lines containing the pattern “root” from the file `/etc/passwd`
 
         grep "root" /etc/passwd
+17. Task 16: Script that displays lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
+
+        grep -A 3 root /etc/passwd
+

@@ -30,4 +30,7 @@
         find . -name '*.js' -type f -delete  
 11. Task 10: Script that deletes all the regular files with a `.js` extension  present in the current dir and its subfolders.
 
-        find . -name '*.js' -type f -delete    
+        find . -name '*.js' -type f -delete  
+12. Task 11: Script that counts the number of directories and sub-directories in the current directory.
+
+        find ./* -type d -print | wc -l   

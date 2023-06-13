@@ -65,3 +65,6 @@ Task 14 : Script that converts a number from base 10 to base 16.
 Task 15 : Script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
       tr 'a-zA-Z' 'n-za-mN-ZA-M'
+Task 16 : Script that prints every other line from the input, starting with the first line.
+
+      cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2

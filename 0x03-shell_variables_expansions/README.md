@@ -26,4 +26,5 @@ Task 6 : Script that creates a new local variable.
            BEST="School"
 Task 7 : Script that creates a new global variable.
         * Name: `BEST`
-        * Value: `School`
+        * Value: `School
+Task 8 : Script that prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a new line`

@@ -19,3 +19,8 @@ Task 4 : Script that lists environment variables.
 Task 5 : Script that lists all local variables and environment variables, and functions.
 
         set
+Task 6 : Script that creates a new local variable.
+        * Name: `BEST`
+        * Value: `School`
+        
+           BEST="School"

@@ -13,3 +13,6 @@ Task 2 : Script that added `/action` to the `PATH`.`/action` should be the last 
 Task 3 : Script that counts the number of directories in the `PATH`
 
         echo $PATH |tr ':' '\n' | wc -l
+Task 4 : Script that lists environment variables.
+
+        printenv

@@ -62,3 +62,6 @@ Task 14 : Script that converts a number from base 10 to base 16.
         * The script should display the number in base 16, followed by a new line
         
             printf "%x\n" $DECIMAL
+Task 15 : Script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+
+      tr 'a-zA-Z' 'n-za-mN-ZA-M'

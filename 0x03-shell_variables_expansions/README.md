@@ -30,5 +30,8 @@ Task 7 : Script that creates a new global variable.
 Task 8 : Script that prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a new line
 
         echo $((128 + $TRUEKNOWLEDGE))
+Task 9 :  Script that prints the result of `POWER` divided by `DIVIDE`, followed by a new line.
+        * `POWER` and `DIVIDE` are environment variables             
 
+            echo $((POWER/DIVIDE))
 `

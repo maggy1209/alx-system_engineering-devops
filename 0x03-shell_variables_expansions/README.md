@@ -16,3 +16,6 @@ Task 3 : Script that counts the number of directories in the `PATH`
 Task 4 : Script that lists environment variables.
 
         printenv
+Task 5 : Script that lists all local variables and environment variables, and functions.
+
+        set

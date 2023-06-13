@@ -34,4 +34,8 @@ Task 9 :  Script that prints the result of `POWER` divided by `DIVIDE`, followed
         * `POWER` and `DIVIDE` are environment variables             
 
             echo $((POWER/DIVIDE))
-`
+Task 10 : Script that displays the result of `BREATH` to the power `LOVE`
+    * `BREATH` and `LOVE` are environment variables
+    * The script displays the result, followed by a new line
+      
+            echo $((BREATH**LOVE))`

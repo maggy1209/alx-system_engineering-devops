@@ -44,3 +44,11 @@ Task 11 : Script that converts a number from base 2 to base 10.
     * The script should display the number in base 10, followed by a new line
       
            echo $((2#$BINARY))`
+Task 12 : Script that prints all possible combinations of two letters, except`oo`.
+    * Letters are lower cases, from `a` to `z`
+    * One combination per line
+    * The output is alpha ordered, starting with `aa`
+    * Does not print `oo`
+    * Script file contains maximum 64 characters.
+      
+            echo {a..z}{a..z} | tr ' ' '\n' |grep -v "oo"

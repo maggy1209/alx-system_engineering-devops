@@ -24,3 +24,6 @@ Task 6 : Script that creates a new local variable.
         * Value: `School`
         
            BEST="School"
+Task 7 : Script that creates a new global variable.
+        * Name: `BEST`
+        * Value: `School`

@@ -68,3 +68,10 @@ Task 15 : Script that encodes and decodes text using the rot13 encryption. Assum
 Task 16 : Script that prints every other line from the input, starting with the first line.
 
       cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2
+Task 17 : Script that adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result.
+      * `WATER` is in base `water`
+      * `STIR` is in base `stir`.
+      *  The result should be in base `bestchol`
+
+            printf "%o\n" $((5#`echo $WATER | tr 'water' '01234'` + 5#`echo $STIR | tr 'stir.' '01234'`)) | tr '01234567' 'bestchol'
+
